@@ -1,11 +1,17 @@
 import Head from "next/head";
-import { makeStyles, Box } from "@material-ui/core";
-import RegForm from "../components/regform";
+import { makeStyles } from "@material-ui/core";
+import Background from "../components/background";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     paddingTop: 75,
+  },
+  background: {
+    zIndex: -1,
+  },
+  navgrid: {
+    zIndex: 1,
   },
 }));
 
@@ -14,11 +20,9 @@ export default function Home() {
   return (
     <div className={classes.root}>
       <Head>
-        <title>Softball Registration</title>
+        <title>Home</title>
       </Head>
-      <Box m={3} pt={0}>
-        <RegForm />
-      </Box>
+      <Background className={classes.background} />
     </div>
   );
 }
