@@ -32,7 +32,7 @@ export default function Background() {
           width={100}
           height={100}
           quality={25}
-          priority="true"
+          
         />
       </div>
     </div>
