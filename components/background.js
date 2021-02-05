@@ -27,7 +27,7 @@ export default function Background() {
         <NavGrid className={classes.navgrid} />
         <Image
           alt="Pitcher"
-          src="/SydPitch.png"
+          src="/SydPitch.jpg"
           layout="responsive"
           width={100}
           height={100}
