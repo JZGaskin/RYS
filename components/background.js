@@ -31,7 +31,7 @@ export default function Background() {
           layout="responsive"
           width={100}
           height={100}
-          quality={100}
+          
         />
       </div>
     </div>
