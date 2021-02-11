@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     backgroundColor: "white",
+    padding: 25
   },
 }));
 
@@ -19,7 +20,7 @@ export default function Signup() {
       <Head>
         <title>Softball Registration</title>
       </Head>
-      <Box m={3} pt={0}>
+      <Box m={2} pt={0}>
         <Paper className={classes.paper} color="#fff">
           <RegForm />
         </Paper>
