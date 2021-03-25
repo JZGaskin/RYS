@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     flexGrow: 1,
-    justifyContent: "space-between",
+    justifyContent: "center",
   },
 }));
 
@@ -23,9 +23,9 @@ export default function NavGrid() {
           <Link href="/signup">
             <Button variant="outlined">Sign Up</Button>
           </Link>
-          <Link href="https://rockwoodsoftball.itemorder.com/sale?fbclid=IwAR27es-gZkpq6xibrp6TDdNd3EHKJMj0pVzuSctGJYEva7QXzg0KsL-XgoA">
+          {/* <Link href="https://rockwoodsoftball.itemorder.com/sale?fbclid=IwAR27es-gZkpq6xibrp6TDdNd3EHKJMj0pVzuSctGJYEva7QXzg0KsL-XgoA">
             <Button variant="outlined">Merch</Button>
-          </Link>
+          </Link> */}
         </Toolbar>
       </AppBar>
     </div>
